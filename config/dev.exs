@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :elixir_tour, ElixirTour.Repo,
   username: "elixirtour",
-  password: "elixirtour",
+  password: "elixir_pass",
   hostname: "localhost",
   database: "elixirtourdb",
   stacktrace: true,

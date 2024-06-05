@@ -1,4 +1,4 @@
-CREATE USER elixirtour WITH SUPERUSER PASSWORD 'elixirtour' CREATEDB;
+CREATE USER elixirtour WITH SUPERUSER PASSWORD 'elixir_pass' CREATEDB;
 CREATE DATABASE elixirtourdb
     WITH
     OWNER = elixirtour
