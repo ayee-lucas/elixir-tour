@@ -2,10 +2,10 @@ import Config
 
 # Configure your database
 config :elixir_tour, ElixirTour.Repo,
-  username: "postgres",
-  password: "postgres",
+  username: "elixirtour",
+  password: "elixirtour",
   hostname: "localhost",
-  database: "elixir_tour_dev",
+  database: "elixirtourdb",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
